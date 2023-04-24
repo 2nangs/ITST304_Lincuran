@@ -1,0 +1,53 @@
+body {
+  background: url('https://i.imgur.com/2qMzClC.png') no-repeat center center fixed;
+   background-size: cover;
+   margin: 0;
+ }
+ h1 {
+     font-family: Arial, sans-serif;
+     font-size: 36px;
+     color: #ffffff;
+   }
+ 
+ .game-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 48px auto;
+ }
+ 
+ .tiles {
+   margin-top: 16px;
+   display: grid;
+   grid-template-columns: repeat(4, 100px);
+   gap: 5px;
+   box-sizing: border-box;
+ }
+ 
+ .tile {
+     height: 80px;
+     width: 80px;
+   background: #111111;
+   border: 5px solid #ffffff;
+   border-radius: 50%; /* Makes the tile circular */
+   cursor: pointer;
+ }
+ 
+ .score,
+ .timer {
+   font-size: 24px;
+   color: #bea9a9;
+   margin-top: 32px;
+     font-family: Arial, sans-serif;
+ }
+ 
+ #score-value {
+   font-weight: bold;
+   margin-left: 8px;
+ }
+ 
+ #timer-value {
+   font-weight: bold;
+   margin-left: 8px;
+ }
+ 
